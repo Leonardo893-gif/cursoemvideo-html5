@@ -1,0 +1,6 @@
+compra = float(input('Informe o preço do produto: R$'))
+aviso = compra - (compra * 10 / 100)
+print('Pagando a vista você vai pagar', aviso, 'reais')
+segundo = float(input('Digite o preço novamente: '))
+juros = segundo + (segundo * 2 / 100)
+print('Pagando parcelado você pagará', juros)

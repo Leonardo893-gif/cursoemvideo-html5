@@ -1,0 +1,15 @@
+print('-' * 30)
+produtos = 'Chips', 'R$ 8.00 ', 'Bolinho', 'R$ 6.00', 'Pão', 'R$ 1.50', 'Pizza', 'R$ 15.00', 'Chocolate', 'R$ 7.00', \
+           'Frango', 'R$ 10.00', 'Lasanha', 'R$ 11.00', 'Refrigerante', 'R$ 5.00', 'Borracha', 'R$ 1.00', 'Caderno', 'R$ 30.00'
+print('{:^30}'.format('LISTAGEM DE PREÇOS'))
+print('Chips................................R$ 8.00')
+print('Bolinho..............................R$ 6.00')
+print( 'Pão..................................R$ 1.50')
+print( 'Pizza................................R$ 15.00')
+print( 'Chocolate............................R$ 7.00')
+print( 'Frango...............................R$ 10.00')
+print( 'Lasanha..............................R$ 11.00')
+print( 'Refrigerante.........................R$ 5.00')
+print( 'Borracha.............................R$ 1.00')
+print( 'Caderno..............................R$ 30.00')
+print('-' * 30)
